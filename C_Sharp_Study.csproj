@@ -9,10 +9,13 @@
 
   <ItemGroup>
     <Compile Remove="1000.cs" />
+    <Compile Remove="cSharp\구현\1000.cs" />
+    <Compile Remove="cSharp\구현\1001.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="1000.cs" />
+    <None Include="cSharp\구현\1000.cs" />
+    <None Include="cSharp\구현\1001.cs" />
   </ItemGroup>
 
 </Project>
