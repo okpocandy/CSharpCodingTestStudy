@@ -1,6 +1,6 @@
 # 문자열
 
-1. 문자열 입력
+1. [문자열 입력](#문자열-입력)
 2. 문자열 출력
 3. 문자열 분리
 4. 문자열 비교
@@ -19,6 +19,7 @@ C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console
   string input = Console.ReadLine(); // 콘솔에서 문자열 입력 받기
   StreamReader.ReadLine():
   ```
+  [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.console.readline?view=net-8.0#system-console-readline)
 
 * **StreamReader.ReadLine():**
     
@@ -34,6 +35,8 @@ C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console
   StreamReader reader = new StreamReader("input.txt"); // 파일에서 문자열 입력 받기
   string line = reader.ReadLine();
   ```
+  [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.io.streamreader.readline?view=net-8.0#system-io-streamreader-readline)
+  
 이 두 가지 방법을 사용하여 C# 프로그램에서 문자열을 입력받을 수 있습니다.
 
 ----------------------------
@@ -54,3 +57,4 @@ C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console
   
   Console.WriteLine(trimmed); // "Hello, world!" 출력
   ```
+  [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.string.trim?view=net-8.0)
