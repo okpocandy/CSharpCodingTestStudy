@@ -9,15 +9,19 @@
 
   <ItemGroup>
     <Compile Remove="1000.cs" />
+    <Compile Remove="2439.cs" />
     <Compile Remove="cSharp\구현\1000.cs" />
     <Compile Remove="cSharp\구현\1001.cs" />
+    <Compile Remove="cSharp\구현\1330.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="cSharp\구현\2439.cs" />
     <None Include="cSharp\구현\1000.cs" />
     <None Include="cSharp\구현\1001.cs" />
+    <None Include="cSharp\구현\1330.cs" />
     <None Include="cSharp\문자열\1152.cs" />
     <None Include="cSharp\문자열\1157.cs" />
   </ItemGroup>
