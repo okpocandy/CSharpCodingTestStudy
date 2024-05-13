@@ -14,11 +14,15 @@
     <Compile Remove="Class1.cs" />
     <Compile Remove="cSharp\구현\1000.cs" />
     <Compile Remove="cSharp\구현\1001.cs" />
+    <Compile Remove="cSharp\구현\10809.cs" />
     <Compile Remove="cSharp\구현\1330.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
     <Compile Remove="cSharp\구현\2920.cs" />
+    <Compile Remove="cSharp\구현\8958.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
+    <Compile Remove="cSharp\수학\2884.cs" />
+    <Compile Remove="cSharp\수학\3052.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +33,10 @@
     <None Include="cSharp\구현\2439.cs" />
     <None Include="cSharp\문자열\1152.cs" />
     <None Include="cSharp\문자열\1157.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="cSharp\수학\" />
   </ItemGroup>
 
 </Project>
