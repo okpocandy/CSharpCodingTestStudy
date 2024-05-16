@@ -2,12 +2,11 @@
 
 1. [문자열 입력](#문자열-입력)
 2. [문자열 분리](#문자열-분리)
-3. 문자열 출력
+3. [문자열 출력](#문자열-출력)
 4. 문자열 비교
 
 ## 문자열 입력
-C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console.ReadLine()과 StreamReader.ReadLine()입니다. 각각에 대한 설명을 드리겠습니다.
-
+C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console.ReadLine()과 StreamReader.ReadLine()입니다.
 * **Console.ReadLine():**
    
   콘솔에서 사용자로부터 한 줄의 문자열을 입력 받습니다.
@@ -65,6 +64,7 @@ C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console
    문자열 분리는 하나의 문자열을 특정 기준에 따라 여러 부분으로 나누는 작업을 말합니다. 이 작업은 데이터 처리나 분석에서 매우 일반적이며, 예를 들어 CSV 파일에서 데이터를 추출하거나 특정 형식의 로그를 파싱할 때 사용될 수 있습니다.
 
 * **String.Split()**
+  
    `String.Split()` 메서드를 사용하여 문자열을 지정된 구분자를 기준으로 분리할 수 있습니다. 반환된 값은 문자열 배열이며, 각 배열 요소는 구분자를 기준으로 분리된 부분 문자열입니다.
 
   ```C#
@@ -101,3 +101,64 @@ C#에서도 문자열을 입력받는 두 가지 방법이 있습니다. Console
 
 
 이러한 방법들을 사용하여 문자열을 쉽게 분리할 수 있으며, 각 상황에 맞게 가장 적합한 방법을 선택할 수 있습니다.
+
+
+## C# 문자열 출력
+
+문자열 출력은 C# 프로그램에서 매우 중요한 부분 중 하나입니다. 아래에는 다양한 방법으로 문자열을 출력하는 방법에 대해 정리해보겠습니다:
+
+* **Console.WriteLine() 메서드 사용**
+
+   `Console.WriteLine()` 메서드는 표준 출력에 문자열을 출력합니다. 출력 후 자동으로 개행 문자('\n')가 추가됩니다.
+
+   ```C#
+   string message = "Hello, world!";
+   Console.WriteLine(message);
+   ```
+   [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.console.writeline?view=net-8.0)
+* **Console.Write() 메서드 사용**
+
+   `Console.Write()` 메서드는 Console.WriteLine()과 비슷하지만, 개행 문자가 추가되지 않습니다. 따라서 출력된 내용이 한 줄에 연속하여 출력됩니다.
+   
+   ```C#
+   string message = "Hello, ";
+   Console.Write(message);
+   Console.WriteLine("world!");
+   ```
+  [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.console.write?view=net-8.0)
+
+* **String.Format() 메서드 사용**
+
+   `String.Format()` 메서드를 사용하여 서식화된 문자열을 생성하고 출력할 수 있습니다. 이를 사용하면 다양한 형식의 문자열을 생성할 수 있습니다.
+
+   ```C#
+   string name = "John";
+   int age = 30;
+   string message = String.Format("My name is {0} and I am {1} years old.", name, age);
+   Console.WriteLine(message);
+   ```
+   [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.string.format?view=net-8.0)
+   
+* **보간 문자열(Interpolated String) 사용**
+
+   C# 6.0부터 도입된 보간 문자열을 사용하면 문자열 내에서 변수를 직접 사용할 수 있습니다. 이는 코드를 읽고 작성하기 쉽게 만듭니다.
+   
+   ```C#
+   string name = "John";
+   int age = 30;
+   string message = $"My name is {name} and I am {age} years old.";
+   Console.WriteLine(message);
+   ```
+   [참조](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/tokens/interpolated)
+  
+* **StringBuilder 클래스 사용**
+   
+   여러 개의 문자열을 합쳐야 하는 경우 StringBuilder 클래스를 사용하여 성능을 향상시킬 수 있습니다. `console.WriteLine()`을 많이 사용하면 시간이 오래걸릴 수 있습니다. 그럴때는 StringBuilder 클래스를 사용하여 속도를 향상시킬 수 있습니다.
+   
+   ```C#
+   StringBuilder sb = new StringBuilder();
+   sb.Append("Hello, ");
+   sb.Append("world!");
+   Console.WriteLine(sb.ToString());
+   ```
+   [참조](https://learn.microsoft.com/ko-kr/dotnet/api/system.text.stringbuilder?view=net-8.0)
