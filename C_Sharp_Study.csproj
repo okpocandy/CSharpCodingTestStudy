@@ -20,6 +20,7 @@
     <Compile Remove="cSharp\구현\10250.cs" />
     <Compile Remove="cSharp\구현\10809.cs" />
     <Compile Remove="cSharp\구현\10818.cs" />
+    <Compile Remove="cSharp\구현\10871.cs" />
     <Compile Remove="cSharp\구현\10951.cs" />
     <Compile Remove="cSharp\구현\10952.cs" />
     <Compile Remove="cSharp\구현\11654.cs" />
