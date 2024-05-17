@@ -43,6 +43,7 @@
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
+    <Compile Remove="정렬\1181.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -57,6 +58,7 @@
 
   <ItemGroup>
     <Folder Include="cSharp\수학\" />
+    <Folder Include="정렬\" />
   </ItemGroup>
 
 </Project>
