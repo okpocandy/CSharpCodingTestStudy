@@ -39,10 +39,12 @@
     <Compile Remove="cSharp\구현\9498.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
+    <Compile Remove="cSharp\문자열\1259.cs" />
     <Compile Remove="cSharp\수학\10869.cs" />
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
+    <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="정렬\1181.cs" />
   </ItemGroup>
 
@@ -58,6 +60,7 @@
 
   <ItemGroup>
     <Folder Include="cSharp\수학\" />
+    <Folder Include="cSharp\탐색\" />
     <Folder Include="정렬\" />
   </ItemGroup>
 
