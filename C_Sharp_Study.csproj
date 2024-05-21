@@ -43,9 +43,12 @@
     <Compile Remove="cSharp\수학\10869.cs" />
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\1546.cs" />
+    <Compile Remove="cSharp\수학\1676.cs" />
+    <Compile Remove="cSharp\수학\2609.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
+    <Compile Remove="cSharp\자료구조\1874.cs" />
     <Compile Remove="cSharp\정렬\1181.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="정렬\1181.cs" />
@@ -63,6 +66,7 @@
 
   <ItemGroup>
     <Folder Include="cSharp\수학\" />
+    <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\정렬\" />
     <Folder Include="cSharp\탐색\" />
     <Folder Include="정렬\" />

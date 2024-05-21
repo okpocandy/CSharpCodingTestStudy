@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Study
+namespace C_Sharp_Study.cSharp.수학
 {
     internal class _2609
     {
@@ -26,6 +26,6 @@ namespace C_Sharp_Study
             Console.WriteLine(a);
             Console.WriteLine(ab[0] * ab[1] / a);
         }
-        
+
     }
 }
