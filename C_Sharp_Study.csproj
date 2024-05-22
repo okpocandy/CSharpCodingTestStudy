@@ -51,6 +51,7 @@
     <Compile Remove="cSharp\자료구조\1874.cs" />
     <Compile Remove="cSharp\정렬\1181.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
+    <Compile Remove="cSharp\탐색\2798.cs" />
     <Compile Remove="정렬\1181.cs" />
   </ItemGroup>
 
