@@ -12,6 +12,7 @@
     <Compile Remove="2439.cs" />
     <Compile Remove="2920.cs" />
     <Compile Remove="Class1.cs" />
+    <Compile Remove="cSharp\DP\2775.cs" />
     <Compile Remove="cSharp\구현\1000.cs" />
     <Compile Remove="cSharp\구현\1001.cs" />
     <Compile Remove="cSharp\구현\1008.cs" />
@@ -66,6 +67,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="cSharp\DP\" />
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\정렬\" />
