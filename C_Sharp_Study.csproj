@@ -53,7 +53,11 @@
     <Compile Remove="cSharp\정렬\1181.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="cSharp\탐색\2798.cs" />
+    <Compile Remove="cSharp\탐색\7568.cs" />
+    <Compile Remove="거스름돈.cs" />
+    <Compile Remove="숫자카드게임.cs" />
     <Compile Remove="정렬\1181.cs" />
+    <Compile Remove="큰 수의 법칙.cs" />
   </ItemGroup>
 
   <ItemGroup>
