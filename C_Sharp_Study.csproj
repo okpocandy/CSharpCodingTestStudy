@@ -38,6 +38,7 @@
     <Compile Remove="cSharp\구현\2920.cs" />
     <Compile Remove="cSharp\구현\8958.cs" />
     <Compile Remove="cSharp\구현\9498.cs" />
+    <Compile Remove="cSharp\구현\게입 개발.cs" />
     <Compile Remove="cSharp\구현\상하좌우.cs" />
     <Compile Remove="cSharp\구현\시각.cs" />
     <Compile Remove="cSharp\구현\왕실의 나이트.cs" />
