@@ -62,6 +62,10 @@
     <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="cSharp\탐색\2798.cs" />
     <Compile Remove="cSharp\탐색\7568.cs" />
+    <Compile Remove="cSharp\탐색\BFS예제.cs" />
+    <Compile Remove="cSharp\탐색\DFS예제.cs" />
+    <Compile Remove="cSharp\탐색\미로탈출.cs" />
+    <Compile Remove="cSharp\탐색\음료수 얼려 먹기.cs" />
     <Compile Remove="거스름돈.cs" />
     <Compile Remove="숫자카드게임.cs" />
     <Compile Remove="정렬\1181.cs" />
