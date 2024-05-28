@@ -43,7 +43,10 @@
     <Compile Remove="cSharp\구현\시각.cs" />
     <Compile Remove="cSharp\구현\왕실의 나이트.cs" />
     <Compile Remove="cSharp\그리디\1이 될 때까지.cs" />
+    <Compile Remove="cSharp\그리디\28014.cs" />
+    <Compile Remove="cSharp\그리디\28062.cs" />
     <Compile Remove="cSharp\그리디\거스름돈.cs" />
+    <Compile Remove="cSharp\그리디\불안정한 수열.cs" />
     <Compile Remove="cSharp\그리디\숫자카드게임.cs" />
     <Compile Remove="cSharp\그리디\큰 수의 법칙.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
@@ -84,7 +87,6 @@
 
   <ItemGroup>
     <Folder Include="cSharp\DP\" />
-    <Folder Include="cSharp\그리디\" />
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\정렬\" />
