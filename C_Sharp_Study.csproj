@@ -97,7 +97,6 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\정렬\" />
-    <Folder Include="cSharp\탐색\" />
     <Folder Include="정렬\" />
   </ItemGroup>
 
