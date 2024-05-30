@@ -42,7 +42,7 @@ namespace C_Sharp_Study.cSharp.탐색
             if (graph[y,x] == 0)
             {
                 graph[y, x] = 1;
-                DFS(x-1,y);
+                DFS(x-1,y); // true or false
                 DFS(x, y-1);
                 DFS(x+1, y);
                 DFS(x, y+1);
