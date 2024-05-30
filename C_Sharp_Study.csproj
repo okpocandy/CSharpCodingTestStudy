@@ -70,6 +70,7 @@
     <Compile Remove="cSharp\정렬\위에서 아래로.cs" />
     <Compile Remove="cSharp\정렬\퀵 정렬 예제.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
+    <Compile Remove="cSharp\탐색\25418.cs" />
     <Compile Remove="cSharp\탐색\2798.cs" />
     <Compile Remove="cSharp\탐색\7568.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
