@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="1000.cs" />
+    <Compile Remove="11123.cs" />
     <Compile Remove="1로 만들기.cs" />
     <Compile Remove="2439.cs" />
     <Compile Remove="2920.cs" />
@@ -55,6 +56,7 @@
     <Compile Remove="cSharp\다이나믹\개미 전사.cs" />
     <Compile Remove="cSharp\다이나믹\바닥 공사.cs" />
     <Compile Remove="cSharp\다이나믹\피보나치 수열 예제 재귀적.cs" />
+    <Compile Remove="cSharp\다이나믹\효율적인 화폐 구성.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
     <Compile Remove="cSharp\문자열\1259.cs" />
@@ -77,10 +79,13 @@
     <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="cSharp\탐색\25418.cs" />
     <Compile Remove="cSharp\탐색\26169.cs" />
+    <Compile Remove="cSharp\탐색\2644.cs" />
     <Compile Remove="cSharp\탐색\2798.cs" />
     <Compile Remove="cSharp\탐색\2805.cs" />
     <Compile Remove="cSharp\탐색\7568.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
+    <Compile Remove="cSharp\탐색\DFS\2644.cs" />
+    <Compile Remove="cSharp\탐색\DFS\4936.cs" />
     <Compile Remove="cSharp\탐색\DFS예제.cs" />
     <Compile Remove="cSharp\탐색\떡볶이 떡 만들기.cs" />
     <Compile Remove="cSharp\탐색\미로탈출.cs" />
@@ -115,6 +120,7 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\정렬\" />
+    <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
   </ItemGroup>
 
