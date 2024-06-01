@@ -7,7 +7,7 @@
    
 2. [깊이 우선 탐색(DFS)](#깊이-우선-탐색DFS)
    
-3. 이진 탐색(Binary Search)
+3. [이진 탐색(Binary Search)](#이진탐색-알고리즘)
 
 ## 너비 우선 탐색(BFS)
 
@@ -235,3 +235,142 @@ namespace CSharpStudy.Algorithms
 
 ### 참조
 * [깊이 우선 탐색 위키피디아](https://ko.wikipedia.org/wiki/%EA%B9%8A%EC%9D%B4_%EC%9A%B0%EC%84%A0_%ED%83%90%EC%83%89)
+
+## 이진탐색 알고리즘
+
+이진탐색(Binary Search)은 정렬된 배열에서 특정 값을 효율적으로 찾는 탐색 알고리즘입니다. 배열의 중간 요소를 선택하여 찾고자 하는 값과 비교하고, 비교 결과에 따라 탐색 범위를 반씩 줄여가며 값을 찾습니다. 이진탐색은 분할 정복 알고리즘의 일종입니다.
+
+![image](https://github.com/okpocandy/CSharpCodingTestStudy/assets/71319122/cf05b9ca-18df-4295-8b2c-7c128f499600)
+
+### 이진탐색 알고리즘 설명
+
+1. 배열의 중간 값을 찾습니다.
+2. 중간 값이 찾고자 하는 값과 같으면 탐색을 종료합니다.
+3. 찾고자 하는 값이 중간 값보다 작으면 배열의 왼쪽 반을 대상으로 다시 탐색합니다.
+4. 찾고자 하는 값이 중간 값보다 크면 배열의 오른쪽 반을 대상으로 다시 탐색합니다.
+5. 배열의 범위가 좁아져서 더 이상 탐색할 수 없을 때까지 이 과정을 반복합니다.
+
+### 이진탐색 구현 예제 (C#)
+
+아래는 C#으로 구현한 이진탐색 알고리즘 예제입니다.
+
+#### 반복문을 사용한 이진탐색
+
+```csharp
+using System;
+
+namespace CSharpStudy.Algorithms
+{
+    class BinarySearchExample
+    {
+        static void Main(string[] args)
+        {
+            int[] array = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+            int target = 7;
+
+            int index = BinarySearch(array, target);
+            if (index != -1)
+            {
+                Console.WriteLine($"Element {target} found at index {index}.");
+            }
+            else
+            {
+                Console.WriteLine("Element not found.");
+            }
+        }
+
+        static int BinarySearch(int[] array, int target)
+        {
+            int left = 0;
+            int right = array.Length - 1;
+
+            while (left <= right)
+            {
+                int mid = left + (right - left) / 2;
+
+                if (array[mid] == target)
+                {
+                    return mid;
+                }
+                else if (array[mid] < target)
+                {
+                    left = mid + 1;
+                }
+                else
+                {
+                    right = mid - 1;
+                }
+            }
+
+            return -1; // 요소를 찾지 못한 경우
+        }
+    }
+}
+```
+
+#### 재귀를 사용한 이진탐색
+
+```C#
+using System;
+
+namespace CSharpStudy.Algorithms
+{
+    class BinarySearchExample
+    {
+        static void Main(string[] args)
+        {
+            int[] array = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+            int target = 7;
+
+            int index = BinarySearch(array, target, 0, array.Length - 1);
+            if (index != -1)
+            {
+                Console.WriteLine($"Element {target} found at index {index}.");
+            }
+            else
+            {
+                Console.WriteLine("Element not found.");
+            }
+        }
+
+        static int BinarySearch(int[] array, int target, int left, int right)
+        {
+            if (left > right)
+            {
+                return -1; // 요소를 찾지 못한 경우
+            }
+
+            int mid = left + (right - left) / 2;
+
+            if (array[mid] == target)
+            {
+                return mid;
+            }
+            else if (array[mid] < target)
+            {
+                return BinarySearch(array, target, mid + 1, right);
+            }
+            else
+            {
+                return BinarySearch(array, target, left, mid - 1);
+            }
+        }
+    }
+}
+```
+
+### 이진탐색 알고리즘의 특징
+
+* **시간 복잡도**: O(log n) (n은 배열의 요소 수)
+* **공간 복잡도**: O(1) (반복문 사용 시), O(log n) (재귀 호출 스택 사용 시)
+* **특징**: 정렬된 배열에서만 사용 가능하며, 검색 속도가 매우 빠릅니다.
+
+### 이진탐색의 응용 분야
+* **데이터 검색**: 큰 데이터베이스에서 데이터를 빠르게 검색할 때 사용됩니다.
+* **정렬된 배열에서의 위치 찾기**: 정렬된 배열에서 특정 요소의 위치를 찾을 때 사용됩니다.
+* **효율적인 탐색**: 탐색 범위를 반씩 줄이므로 매우 효율적인 탐색이 가능합니다.
+  
+이진탐색은 효율적인 탐색 알고리즘으로, 많은 데이터가 정렬된 상태에서 매우 빠른 탐색을 가능하게 합니다.
+
+### 참조
+* [이진 검색 알고리즘 위키피디아]([https://ko.wikipedia.org/wiki/%EA%B9%8A%EC%9D%B4_%EC%9A%B0%EC%84%A0_%ED%83%90%EC%83%89](https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%EA%B2%80%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98))
