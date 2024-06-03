@@ -88,6 +88,11 @@
     <Compile Remove="cSharp\정렬\성적이 낮은 순서로 학생 출력하기.cs" />
     <Compile Remove="cSharp\정렬\위에서 아래로.cs" />
     <Compile Remove="cSharp\정렬\퀵 정렬 예제.cs" />
+    <Compile Remove="cSharp\최단 경로\간단한 다익스트라 예제.cs" />
+    <Compile Remove="cSharp\최단 경로\개선된 다익스트라 예제.cs" />
+    <Compile Remove="cSharp\최단 경로\미래도시.cs" />
+    <Compile Remove="cSharp\최단 경로\전보.cs" />
+    <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\탐색\1018.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
     <Compile Remove="cSharp\탐색\1920.cs" />
