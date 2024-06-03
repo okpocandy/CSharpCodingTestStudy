@@ -90,6 +90,7 @@
     <Compile Remove="cSharp\정렬\퀵 정렬 예제.cs" />
     <Compile Remove="cSharp\탐색\1018.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
+    <Compile Remove="cSharp\탐색\1920.cs" />
     <Compile Remove="cSharp\탐색\25418.cs" />
     <Compile Remove="cSharp\탐색\26169.cs" />
     <Compile Remove="cSharp\탐색\2644.cs" />
@@ -109,6 +110,7 @@
     <Compile Remove="cSharp\탐색\이진 탐색 예제 반복문.cs" />
     <Compile Remove="cSharp\탐색\이진 탐색 예제 재귀함수.cs" />
     <Compile Remove="cSharp\효율적인 화폐 구성.cs" />
+    <Compile Remove="간단한 다익스트라 예제.cs" />
     <Compile Remove="개미 전사.cs" />
     <Compile Remove="거스름돈.cs" />
     <Compile Remove="바닥 공사.cs" />
