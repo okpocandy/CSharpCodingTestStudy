@@ -115,16 +115,24 @@
     <Compile Remove="cSharp\탐색\음료수 얼려 먹기.cs" />
     <Compile Remove="cSharp\탐색\이진 탐색 예제 반복문.cs" />
     <Compile Remove="cSharp\탐색\이진 탐색 예제 재귀함수.cs" />
+    <Compile Remove="cSharp\트리\개선된 서로소 집합 예제.cs" />
+    <Compile Remove="cSharp\트리\기본적인 서로소 집합 예제.cs" />
+    <Compile Remove="cSharp\트리\서로소 집합을 활용한 사이클 판별 예제.cs" />
     <Compile Remove="cSharp\효율적인 화폐 구성.cs" />
     <Compile Remove="간단한 다익스트라 예제.cs" />
     <Compile Remove="개미 전사.cs" />
     <Compile Remove="개선된 서로소 집합 예제.cs" />
     <Compile Remove="거스름돈.cs" />
     <Compile Remove="기본적인 서로소 집합 예제.cs" />
+    <Compile Remove="도시 분할 계획.cs" />
     <Compile Remove="바닥 공사.cs" />
     <Compile Remove="숫자카드게임.cs" />
+    <Compile Remove="위상 정렬 예제.cs" />
     <Compile Remove="정렬\1181.cs" />
+    <Compile Remove="커리큘럼.cs" />
+    <Compile Remove="크루스칼 알고리즘 예제.cs" />
     <Compile Remove="큰 수의 법칙.cs" />
+    <Compile Remove="팀 결성.cs" />
     <Compile Remove="피보나치 수열 예제 재귀적.cs" />
   </ItemGroup>
 
@@ -146,6 +154,7 @@
     <Folder Include="cSharp\최단 경로\" />
     <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
+    <Folder Include="cSharp\트리\" />
     <Folder Include="정렬\" />
   </ItemGroup>
 
