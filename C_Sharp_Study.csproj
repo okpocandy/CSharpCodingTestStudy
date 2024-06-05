@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="cSharp\그리디\**" />
+    <EmbeddedResource Remove="cSharp\그리디\**" />
+    <None Remove="cSharp\그리디\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="1000.cs" />
     <Compile Remove="11123.cs" />
     <Compile Remove="1로 만들기.cs" />
@@ -49,14 +55,6 @@
     <Compile Remove="cSharp\구현\상하좌우.cs" />
     <Compile Remove="cSharp\구현\시각.cs" />
     <Compile Remove="cSharp\구현\왕실의 나이트.cs" />
-    <Compile Remove="cSharp\그리디\1이 될 때까지.cs" />
-    <Compile Remove="cSharp\그리디\28014.cs" />
-    <Compile Remove="cSharp\그리디\28062.cs" />
-    <Compile Remove="cSharp\그리디\30019.cs" />
-    <Compile Remove="cSharp\그리디\거스름돈.cs" />
-    <Compile Remove="cSharp\그리디\불안정한 수열.cs" />
-    <Compile Remove="cSharp\그리디\숫자카드게임.cs" />
-    <Compile Remove="cSharp\그리디\큰 수의 법칙.cs" />
     <Compile Remove="cSharp\다이나믹\1로 만들기.cs" />
     <Compile Remove="cSharp\다이나믹\개미 전사.cs" />
     <Compile Remove="cSharp\다이나믹\바닥 공사.cs" />
@@ -117,7 +115,12 @@
     <Compile Remove="cSharp\탐색\이진 탐색 예제 재귀함수.cs" />
     <Compile Remove="cSharp\트리\개선된 서로소 집합 예제.cs" />
     <Compile Remove="cSharp\트리\기본적인 서로소 집합 예제.cs" />
+    <Compile Remove="cSharp\트리\도시 분할 계획.cs" />
     <Compile Remove="cSharp\트리\서로소 집합을 활용한 사이클 판별 예제.cs" />
+    <Compile Remove="cSharp\트리\위상 정렬 예제.cs" />
+    <Compile Remove="cSharp\트리\커리큘럼.cs" />
+    <Compile Remove="cSharp\트리\크루스칼 알고리즘 예제.cs" />
+    <Compile Remove="cSharp\트리\팀 결성.cs" />
     <Compile Remove="cSharp\효율적인 화폐 구성.cs" />
     <Compile Remove="간단한 다익스트라 예제.cs" />
     <Compile Remove="개미 전사.cs" />
