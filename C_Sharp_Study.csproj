@@ -110,6 +110,7 @@
     <Compile Remove="cSharp\탐색\2805.cs" />
     <Compile Remove="cSharp\탐색\7568.cs" />
     <Compile Remove="cSharp\탐색\BFS\11123.cs" />
+    <Compile Remove="cSharp\탐색\BFS\18352.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
     <Compile Remove="cSharp\탐색\DFS\2644.cs" />
     <Compile Remove="cSharp\탐색\DFS\4936.cs" />
@@ -168,7 +169,6 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\최단 경로\" />
-    <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="cSharp\트리\" />
     <Folder Include="정렬\" />
