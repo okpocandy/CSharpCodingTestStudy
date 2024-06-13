@@ -75,6 +75,7 @@
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\1546.cs" />
     <Compile Remove="cSharp\수학\1676.cs" />
+    <Compile Remove="cSharp\수학\1929.cs" />
     <Compile Remove="cSharp\수학\2609.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
@@ -102,6 +103,7 @@
     <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\탐색\1018.cs" />
     <Compile Remove="cSharp\탐색\1436.cs" />
+    <Compile Remove="cSharp\탐색\1654.cs" />
     <Compile Remove="cSharp\탐색\1920.cs" />
     <Compile Remove="cSharp\탐색\25418.cs" />
     <Compile Remove="cSharp\탐색\26169.cs" />
@@ -110,6 +112,7 @@
     <Compile Remove="cSharp\탐색\2805.cs" />
     <Compile Remove="cSharp\탐색\7568.cs" />
     <Compile Remove="cSharp\탐색\BFS\11123.cs" />
+    <Compile Remove="cSharp\탐색\BFS\14502.cs" />
     <Compile Remove="cSharp\탐색\BFS\18352.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
     <Compile Remove="cSharp\탐색\DFS\2644.cs" />
@@ -169,6 +172,7 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\" />
     <Folder Include="cSharp\최단 경로\" />
+    <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="cSharp\트리\" />
     <Folder Include="정렬\" />
