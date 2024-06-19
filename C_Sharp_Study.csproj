@@ -18,6 +18,7 @@
     <Compile Remove="10816.cs" />
     <Compile Remove="11123.cs" />
     <Compile Remove="1로 만들기.cs" />
+    <Compile Remove="2108.cs" />
     <Compile Remove="2439.cs" />
     <Compile Remove="2587.cs" />
     <Compile Remove="2750.cs" />
@@ -86,6 +87,7 @@
     <Compile Remove="cSharp\수학\1978.cs" />
     <Compile Remove="cSharp\수학\2292.cs" />
     <Compile Remove="cSharp\수학\2609.cs" />
+    <Compile Remove="cSharp\수학\2869.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
