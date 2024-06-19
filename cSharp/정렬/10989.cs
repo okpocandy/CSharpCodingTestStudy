@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace C_Sharp_Study
+namespace C_Sharp_Study.cSharp.정렬
 {
     internal class _10989
     {
@@ -30,12 +30,12 @@ namespace C_Sharp_Study
                         sb.Append(count[i]);
                     }
                 }
-                if(i%100 == 0)
+                if (i % 100 == 0)
                 {
                     Console.WriteLine(sb.ToString());
                     sb.Clear();
                 }
-                    
+
             }
         }
     }

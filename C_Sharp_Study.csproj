@@ -45,6 +45,7 @@
     <Compile Remove="cSharp\구현\11720.cs" />
     <Compile Remove="cSharp\구현\1330.cs" />
     <Compile Remove="cSharp\구현\15686.cs" />
+    <Compile Remove="cSharp\구현\15829.cs" />
     <Compile Remove="cSharp\구현\2231.cs" />
     <Compile Remove="cSharp\구현\2438.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
@@ -93,13 +94,16 @@
     <Compile Remove="cSharp\수학\4153.cs" />
     <Compile Remove="cSharp\자료구조\1874.cs" />
     <Compile Remove="cSharp\자료구조\스택\10773.cs" />
+    <Compile Remove="cSharp\자료구조\스택\4949.cs" />
     <Compile Remove="cSharp\자료구조\스택\9012.cs" />
     <Compile Remove="cSharp\자료구조\큐\10845.cs" />
     <Compile Remove="cSharp\자료구조\큐\11866.cs" />
     <Compile Remove="cSharp\자료구조\큐\1966.cs" />
     <Compile Remove="cSharp\자료구조\큐\2164.cs" />
     <Compile Remove="cSharp\정렬\10814.cs" />
+    <Compile Remove="cSharp\정렬\10989.cs" />
     <Compile Remove="cSharp\정렬\11650.cs" />
+    <Compile Remove="cSharp\정렬\11651.cs" />
     <Compile Remove="cSharp\정렬\1181.cs" />
     <Compile Remove="cSharp\정렬\20124.cs" />
     <Compile Remove="cSharp\정렬\2587.cs" />
