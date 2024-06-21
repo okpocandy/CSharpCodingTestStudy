@@ -84,6 +84,7 @@
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\1546.cs" />
     <Compile Remove="cSharp\수학\1676.cs" />
+    <Compile Remove="cSharp\수학\18110.cs" />
     <Compile Remove="cSharp\수학\1929.cs" />
     <Compile Remove="cSharp\수학\1978.cs" />
     <Compile Remove="cSharp\수학\2292.cs" />
@@ -194,7 +195,6 @@
   <ItemGroup>
     <Folder Include="cSharp\DP\" />
     <Folder Include="cSharp\다이나믹\" />
-    <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\자료구조\큐\" />
     <Folder Include="cSharp\최단 경로\" />
