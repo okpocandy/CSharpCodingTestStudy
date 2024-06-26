@@ -45,6 +45,7 @@
     <Compile Remove="cSharp\구현\10952.cs" />
     <Compile Remove="cSharp\구현\11654.cs" />
     <Compile Remove="cSharp\구현\11720.cs" />
+    <Compile Remove="cSharp\구현\11723.cs" />
     <Compile Remove="cSharp\구현\1330.cs" />
     <Compile Remove="cSharp\구현\15686.cs" />
     <Compile Remove="cSharp\구현\15829.cs" />
@@ -75,6 +76,7 @@
     <Compile Remove="cSharp\구현\이항 계수1.cs" />
     <Compile Remove="cSharp\구현\자물쇠와 열쇠.cs" />
     <Compile Remove="cSharp\다이나믹\1로 만들기.cs" />
+    <Compile Remove="cSharp\다이나믹\9461.cs" />
     <Compile Remove="cSharp\다이나믹\개미 전사.cs" />
     <Compile Remove="cSharp\다이나믹\바닥 공사.cs" />
     <Compile Remove="cSharp\다이나믹\피보나치 수열 예제 재귀적.cs" />
@@ -90,12 +92,14 @@
     <Compile Remove="cSharp\수학\18110.cs" />
     <Compile Remove="cSharp\수학\1929.cs" />
     <Compile Remove="cSharp\수학\1978.cs" />
+    <Compile Remove="cSharp\수학\2108.cs" />
     <Compile Remove="cSharp\수학\2292.cs" />
     <Compile Remove="cSharp\수학\2609.cs" />
     <Compile Remove="cSharp\수학\2869.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
+    <Compile Remove="cSharp\자료구조\17219.cs" />
     <Compile Remove="cSharp\자료구조\1874.cs" />
     <Compile Remove="cSharp\자료구조\스택\10773.cs" />
     <Compile Remove="cSharp\자료구조\스택\4949.cs" />
@@ -104,6 +108,7 @@
     <Compile Remove="cSharp\자료구조\큐\11279.cs" />
     <Compile Remove="cSharp\자료구조\큐\11286.cs" />
     <Compile Remove="cSharp\자료구조\큐\11866.cs" />
+    <Compile Remove="cSharp\자료구조\큐\1927.cs" />
     <Compile Remove="cSharp\자료구조\큐\1966.cs" />
     <Compile Remove="cSharp\자료구조\큐\2164.cs" />
     <Compile Remove="cSharp\정렬\10814.cs" />
@@ -146,6 +151,7 @@
     <Compile Remove="cSharp\탐색\BFS\14940.cs" />
     <Compile Remove="cSharp\탐색\BFS\18352.cs" />
     <Compile Remove="cSharp\탐색\BFS\21736.cs" />
+    <Compile Remove="cSharp\탐색\BFS\2178.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
     <Compile Remove="cSharp\탐색\DFS\2644.cs" />
     <Compile Remove="cSharp\탐색\DFS\4936.cs" />
@@ -206,6 +212,7 @@
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\자료구조\큐\" />
     <Folder Include="cSharp\최단 경로\" />
+    <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="cSharp\트리\" />
     <Folder Include="정렬\" />
