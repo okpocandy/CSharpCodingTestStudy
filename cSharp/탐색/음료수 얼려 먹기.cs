@@ -26,7 +26,7 @@ namespace C_Sharp_Study.cSharp.탐색
             {
                 for(int j=0; j < NM[1];j++)
                 {
-                    if (DFS(j, i) == true)
+                    
                         result++;
                 }
             }
