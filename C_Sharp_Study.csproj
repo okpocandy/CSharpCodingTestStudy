@@ -155,6 +155,7 @@
     <Compile Remove="cSharp\탐색\BFS\2178.cs" />
     <Compile Remove="cSharp\탐색\BFS예제.cs" />
     <Compile Remove="cSharp\탐색\DFS\2644.cs" />
+    <Compile Remove="cSharp\탐색\DFS\2667.cs" />
     <Compile Remove="cSharp\탐색\DFS\4936.cs" />
     <Compile Remove="cSharp\탐색\DFS예제.cs" />
     <Compile Remove="cSharp\탐색\떡볶이 떡 만들기.cs" />
