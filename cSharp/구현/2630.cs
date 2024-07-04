@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Study
+namespace C_Sharp_Study.cSharp.구현
 {
     internal class _2630
     {
@@ -15,10 +15,10 @@ namespace C_Sharp_Study
         {
             int n = int.Parse(Console.ReadLine());
             graph = new int[n + 1, n + 1];
-            for(int i=0; i<n; i++)
+            for (int i = 0; i < n; i++)
             {
                 int[] ints = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-                for (int j = 0;j < n; j++)
+                for (int j = 0; j < n; j++)
                 {
                     graph[i, j] = ints[j];
                 }
@@ -27,16 +27,16 @@ namespace C_Sharp_Study
             Console.WriteLine(w);
             Console.WriteLine(b);
         }
-        
+
         static void Ans(int r, int c, int s)
         {
             int color = graph[r, c];
             bool eq = true;
-            for(int i=r; i<r+s; i++)
+            for (int i = r; i < r + s; i++)
             {
-                for(int j=c; j<c+s; j++)
+                for (int j = c; j < c + s; j++)
                 {
-                    if (graph[i,j] != color)
+                    if (graph[i, j] != color)
                     {
                         eq = false;
                         break;
@@ -45,7 +45,7 @@ namespace C_Sharp_Study
                 if (!eq)
                     break;
             }
-            if(eq)
+            if (eq)
             {
                 if (color == 0)
                     w++;
@@ -56,8 +56,8 @@ namespace C_Sharp_Study
 
             int nS = s / 2;
             Ans(r, c, nS);
-            Ans(r, c+nS, nS);
-            Ans(r+nS, c, nS);
+            Ans(r, c + nS, nS);
+            Ans(r + nS, c, nS);
             Ans(r + nS, c + nS, nS);
 
         }
