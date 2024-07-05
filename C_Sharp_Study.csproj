@@ -87,6 +87,7 @@
     <Compile Remove="cSharp\문자열\1157.cs" />
     <Compile Remove="cSharp\문자열\1259.cs" />
     <Compile Remove="cSharp\수학\10869.cs" />
+    <Compile Remove="cSharp\수학\1094.cs" />
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\1297.cs" />
     <Compile Remove="cSharp\수학\1546.cs" />
