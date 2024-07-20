@@ -93,6 +93,7 @@
     <Compile Remove="cSharp\수학\1094.cs" />
     <Compile Remove="cSharp\수학\10950.cs" />
     <Compile Remove="cSharp\수학\1297.cs" />
+    <Compile Remove="cSharp\수학\1358.cs" />
     <Compile Remove="cSharp\수학\1546.cs" />
     <Compile Remove="cSharp\수학\1676.cs" />
     <Compile Remove="cSharp\수학\18110.cs" />
