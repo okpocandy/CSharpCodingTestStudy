@@ -48,6 +48,7 @@
     <Compile Remove="cSharp\구현\11720.cs" />
     <Compile Remove="cSharp\구현\11723.cs" />
     <Compile Remove="cSharp\구현\1330.cs" />
+    <Compile Remove="cSharp\구현\1431.cs" />
     <Compile Remove="cSharp\구현\15686.cs" />
     <Compile Remove="cSharp\구현\15829.cs" />
     <Compile Remove="cSharp\구현\2231.cs" />
