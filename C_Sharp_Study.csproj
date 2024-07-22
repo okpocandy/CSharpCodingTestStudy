@@ -51,6 +51,7 @@
     <Compile Remove="cSharp\구현\1431.cs" />
     <Compile Remove="cSharp\구현\15686.cs" />
     <Compile Remove="cSharp\구현\15829.cs" />
+    <Compile Remove="cSharp\구현\1969.cs" />
     <Compile Remove="cSharp\구현\2231.cs" />
     <Compile Remove="cSharp\구현\2438.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
@@ -102,6 +103,7 @@
     <Compile Remove="cSharp\수학\1978.cs" />
     <Compile Remove="cSharp\수학\2108.cs" />
     <Compile Remove="cSharp\수학\2292.cs" />
+    <Compile Remove="cSharp\수학\2312.cs" />
     <Compile Remove="cSharp\수학\2609.cs" />
     <Compile Remove="cSharp\수학\2869.cs" />
     <Compile Remove="cSharp\수학\2884.cs" />
