@@ -44,6 +44,7 @@
     <Compile Remove="cSharp\구현\10871.cs" />
     <Compile Remove="cSharp\구현\10951.cs" />
     <Compile Remove="cSharp\구현\10952.cs" />
+    <Compile Remove="cSharp\구현\1138.cs" />
     <Compile Remove="cSharp\구현\11654.cs" />
     <Compile Remove="cSharp\구현\11720.cs" />
     <Compile Remove="cSharp\구현\11723.cs" />
@@ -70,6 +71,7 @@
     <Compile Remove="cSharp\구현\4101.cs" />
     <Compile Remove="cSharp\구현\8958.cs" />
     <Compile Remove="cSharp\구현\9498.cs" />
+    <Compile Remove="cSharp\구현\9659.cs" />
     <Compile Remove="cSharp\구현\게입 개발.cs" />
     <Compile Remove="cSharp\구현\기둥과 보 설치.cs" />
     <Compile Remove="cSharp\구현\럭키 스트레이트.cs" />
