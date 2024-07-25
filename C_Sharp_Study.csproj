@@ -150,6 +150,7 @@
     <Compile Remove="cSharp\정렬\11650.cs" />
     <Compile Remove="cSharp\정렬\11651.cs" />
     <Compile Remove="cSharp\정렬\1181.cs" />
+    <Compile Remove="cSharp\정렬\1449.cs" />
     <Compile Remove="cSharp\정렬\1764.cs" />
     <Compile Remove="cSharp\정렬\18870.cs" />
     <Compile Remove="cSharp\정렬\20124.cs" />
