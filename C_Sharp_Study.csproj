@@ -30,6 +30,7 @@
     <Compile Remove="9076.cs" />
     <Compile Remove="9461.cs" />
     <Compile Remove="Class1.cs" />
+    <Compile Remove="cSharp\DP\1003.cs" />
     <Compile Remove="cSharp\DP\2775.cs" />
     <Compile Remove="cSharp\구현\1000.cs" />
     <Compile Remove="cSharp\구현\1001.cs" />
