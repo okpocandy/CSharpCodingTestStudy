@@ -60,6 +60,7 @@
     <Compile Remove="cSharp\구현\2439.cs" />
     <Compile Remove="cSharp\구현\2475.cs" />
     <Compile Remove="cSharp\구현\25083.cs" />
+    <Compile Remove="cSharp\구현\2535.cs" />
     <Compile Remove="cSharp\구현\2548.cs" />
     <Compile Remove="cSharp\구현\2562.cs" />
     <Compile Remove="cSharp\구현\2630.cs" />
