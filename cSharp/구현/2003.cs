@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Study.cSharp
+namespace C_Sharp_Study.cSharp.구현
 {
     internal class _2003
     {
@@ -17,7 +17,7 @@ namespace C_Sharp_Study.cSharp
             int left = 0;
             int right = 1;
             int cnt = 0;
-            while(left<n && right<=n)
+            while (left < n && right <= n)
             {
                 int tmp = ints[left..right].Sum();
                 if (tmp < m)

@@ -56,6 +56,7 @@
     <Compile Remove="cSharp\구현\15686.cs" />
     <Compile Remove="cSharp\구현\15829.cs" />
     <Compile Remove="cSharp\구현\1969.cs" />
+    <Compile Remove="cSharp\구현\2003.cs" />
     <Compile Remove="cSharp\구현\2231.cs" />
     <Compile Remove="cSharp\구현\2438.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
@@ -64,6 +65,7 @@
     <Compile Remove="cSharp\구현\2535.cs" />
     <Compile Remove="cSharp\구현\2548.cs" />
     <Compile Remove="cSharp\구현\2562.cs" />
+    <Compile Remove="cSharp\구현\2563.cs" />
     <Compile Remove="cSharp\구현\2630.cs" />
     <Compile Remove="cSharp\구현\2739.cs" />
     <Compile Remove="cSharp\구현\2741.cs" />
