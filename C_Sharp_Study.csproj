@@ -120,6 +120,8 @@
     <Compile Remove="cSharp\수학\2884.cs" />
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
+    <Compile Remove="cSharp\자료구조\1269.cs" />
+    <Compile Remove="cSharp\자료구조\1302.cs" />
     <Compile Remove="cSharp\자료구조\17219.cs" />
     <Compile Remove="cSharp\자료구조\1874.cs" />
     <Compile Remove="cSharp\자료구조\스택\10773.cs" />
