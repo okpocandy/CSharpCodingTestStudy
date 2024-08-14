@@ -31,6 +31,7 @@
     <Compile Remove="9461.cs" />
     <Compile Remove="Class1.cs" />
     <Compile Remove="cSharp\DP\1003.cs" />
+    <Compile Remove="cSharp\DP\1149.cs" />
     <Compile Remove="cSharp\DP\1904.cs" />
     <Compile Remove="cSharp\DP\1932.cs" />
     <Compile Remove="cSharp\DP\2193.cs" />
@@ -43,6 +44,7 @@
     <Compile Remove="cSharp\구현\10250.cs" />
     <Compile Remove="cSharp\구현\1051.cs" />
     <Compile Remove="cSharp\구현\1065.cs" />
+    <Compile Remove="cSharp\구현\10799.cs" />
     <Compile Remove="cSharp\구현\10809.cs" />
     <Compile Remove="cSharp\구현\10818.cs" />
     <Compile Remove="cSharp\구현\10828.cs" />
