@@ -295,7 +295,6 @@
     <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="정렬\" />
     <Folder Include="최단 경로\" />
-    <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="cSharp\트리\" />
   </ItemGroup>
 
