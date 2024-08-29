@@ -31,6 +31,7 @@
     <Compile Remove="9461.cs" />
     <Compile Remove="Class1.cs" />
     <Compile Remove="cSharp\DP\1003.cs" />
+    <Compile Remove="cSharp\DP\11057.cs" />
     <Compile Remove="cSharp\DP\1149.cs" />
     <Compile Remove="cSharp\DP\1904.cs" />
     <Compile Remove="cSharp\DP\1932.cs" />
@@ -206,6 +207,7 @@
     <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
     <Compile Remove="cSharp\탐색\BFS\1697.cs" />
+    <Compile Remove="cSharp\탐색\DFS\2583.cs" />
     <Compile Remove="최단 경로\1058.cs" />
     <Compile Remove="최단 경로\11403.cs" />
     <Compile Remove="최단 경로\1389.cs" />
@@ -293,6 +295,7 @@
     <Folder Include="cSharp\자료구조\큐\" />
     <Folder Include="cSharp\최단 경로\" />
     <Folder Include="cSharp\탐색\BFS\" />
+    <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
     <Folder Include="최단 경로\" />
     <Folder Include="cSharp\트리\" />
