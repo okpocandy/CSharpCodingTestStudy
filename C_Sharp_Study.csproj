@@ -33,6 +33,7 @@
     <Compile Remove="cSharp\DP\1003.cs" />
     <Compile Remove="cSharp\DP\11057.cs" />
     <Compile Remove="cSharp\DP\1149.cs" />
+    <Compile Remove="cSharp\DP\14501.cs" />
     <Compile Remove="cSharp\DP\1904.cs" />
     <Compile Remove="cSharp\DP\1932.cs" />
     <Compile Remove="cSharp\DP\2193.cs" />
@@ -89,6 +90,7 @@
     <Compile Remove="cSharp\구현\5212.cs" />
     <Compile Remove="cSharp\구현\8958.cs" />
     <Compile Remove="cSharp\구현\9498.cs" />
+    <Compile Remove="cSharp\구현\9655.cs" />
     <Compile Remove="cSharp\구현\9659.cs" />
     <Compile Remove="cSharp\구현\게입 개발.cs" />
     <Compile Remove="cSharp\구현\기둥과 보 설치.cs" />
