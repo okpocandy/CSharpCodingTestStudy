@@ -211,6 +211,7 @@
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
     <Compile Remove="cSharp\탐색\BFS\16953.cs" />
     <Compile Remove="cSharp\탐색\BFS\1697.cs" />
+    <Compile Remove="cSharp\탐색\BFS\3184.cs" />
     <Compile Remove="cSharp\탐색\DFS\2583.cs" />
     <Compile Remove="최단 경로\1058.cs" />
     <Compile Remove="최단 경로\11403.cs" />
@@ -298,7 +299,6 @@
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\자료구조\큐\" />
     <Folder Include="cSharp\최단 경로\" />
-    <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
     <Folder Include="최단 경로\" />
