@@ -55,9 +55,11 @@
     <Compile Remove="cSharp\구현\10952.cs" />
     <Compile Remove="cSharp\구현\1110.cs" />
     <Compile Remove="cSharp\구현\1138.cs" />
+    <Compile Remove="cSharp\구현\1158.cs" />
     <Compile Remove="cSharp\구현\11654.cs" />
     <Compile Remove="cSharp\구현\11720.cs" />
     <Compile Remove="cSharp\구현\11723.cs" />
+    <Compile Remove="cSharp\구현\1193.cs" />
     <Compile Remove="cSharp\구현\1251.cs" />
     <Compile Remove="cSharp\구현\1292.cs" />
     <Compile Remove="cSharp\구현\1330.cs" />
@@ -209,6 +211,7 @@
     <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\탐색\BFS\11060.cs" />
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
+    <Compile Remove="cSharp\탐색\BFS\14716.cs" />
     <Compile Remove="cSharp\탐색\BFS\16953.cs" />
     <Compile Remove="cSharp\탐색\BFS\1697.cs" />
     <Compile Remove="cSharp\탐색\BFS\3184.cs" />
@@ -299,6 +302,7 @@
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\자료구조\큐\" />
     <Folder Include="cSharp\최단 경로\" />
+    <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
     <Folder Include="최단 경로\" />
