@@ -308,7 +308,6 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\자료구조\큐\" />
-    <Folder Include="cSharp\최단 경로\" />
     <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
