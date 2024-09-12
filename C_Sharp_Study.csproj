@@ -153,6 +153,8 @@
     <Compile Remove="cSharp\자료구조\17219.cs" />
     <Compile Remove="cSharp\자료구조\1822.cs" />
     <Compile Remove="cSharp\자료구조\1874.cs" />
+    <Compile Remove="cSharp\자료구조\딕셔너리와 해시\1269.cs" />
+    <Compile Remove="cSharp\자료구조\딕셔너리와 해시\14425.cs" />
     <Compile Remove="cSharp\자료구조\스택\10773.cs" />
     <Compile Remove="cSharp\자료구조\스택\1316.cs" />
     <Compile Remove="cSharp\자료구조\스택\4949.cs" />
@@ -161,6 +163,7 @@
     <Compile Remove="cSharp\자료구조\큐\11279.cs" />
     <Compile Remove="cSharp\자료구조\큐\11286.cs" />
     <Compile Remove="cSharp\자료구조\큐\11866.cs" />
+    <Compile Remove="cSharp\자료구조\큐\18258.cs" />
     <Compile Remove="cSharp\자료구조\큐\1927.cs" />
     <Compile Remove="cSharp\자료구조\큐\1966.cs" />
     <Compile Remove="cSharp\자료구조\큐\2164.cs" />
@@ -307,6 +310,7 @@
     <Folder Include="cSharp\DP\" />
     <Folder Include="cSharp\다이나믹\" />
     <Folder Include="cSharp\수학\" />
+    <Folder Include="cSharp\자료구조\딕셔너리와 해시\" />
     <Folder Include="cSharp\자료구조\스택\" />
     <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
