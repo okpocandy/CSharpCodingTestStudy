@@ -121,11 +121,13 @@
     <Compile Remove="cSharp\문자열\1157.cs" />
     <Compile Remove="cSharp\문자열\1235.cs" />
     <Compile Remove="cSharp\문자열\1259.cs" />
+    <Compile Remove="cSharp\문자열\13417.cs" />
     <Compile Remove="cSharp\문자열\17413.cs" />
     <Compile Remove="cSharp\문자열\20291.cs" />
     <Compile Remove="cSharp\문자열\20920.cs" />
     <Compile Remove="cSharp\문자열\5525.cs" />
     <Compile Remove="cSharp\문자열\9093.cs" />
+    <Compile Remove="cSharp\문자열\9536.cs" />
     <Compile Remove="cSharp\수학\10869.cs" />
     <Compile Remove="cSharp\수학\1094.cs" />
     <Compile Remove="cSharp\수학\10950.cs" />
