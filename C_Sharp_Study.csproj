@@ -125,6 +125,7 @@
     <Compile Remove="cSharp\문자열\17413.cs" />
     <Compile Remove="cSharp\문자열\20291.cs" />
     <Compile Remove="cSharp\문자열\20920.cs" />
+    <Compile Remove="cSharp\문자열\25206.cs" />
     <Compile Remove="cSharp\문자열\5525.cs" />
     <Compile Remove="cSharp\문자열\9093.cs" />
     <Compile Remove="cSharp\문자열\9536.cs" />
@@ -320,7 +321,6 @@
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
     <Folder Include="최단 경로\" />
-    <Folder Include="cSharp\트리\" />
   </ItemGroup>
 
 </Project>
