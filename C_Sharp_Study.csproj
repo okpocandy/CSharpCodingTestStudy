@@ -232,6 +232,9 @@
     <Compile Remove="cSharp\탐색\BFS\1697.cs" />
     <Compile Remove="cSharp\탐색\BFS\3184.cs" />
     <Compile Remove="cSharp\탐색\DFS\2583.cs" />
+    <Compile Remove="cSharp\트리\1240.cs" />
+    <Compile Remove="cSharp\트리\17073.cs" />
+    <Compile Remove="cSharp\트리\1991.cs" />
     <Compile Remove="최단 경로\1058.cs" />
     <Compile Remove="최단 경로\11403.cs" />
     <Compile Remove="최단 경로\1389.cs" />
