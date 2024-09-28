@@ -228,6 +228,7 @@
     <Compile Remove="cSharp\최단 경로\전보.cs" />
     <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\최소스패닝트리\1197.cs" />
+    <Compile Remove="cSharp\최소스패닝트리\6497.cs" />
     <Compile Remove="cSharp\탐색\BFS\11060.cs" />
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
     <Compile Remove="cSharp\탐색\BFS\14716.cs" />
@@ -323,7 +324,6 @@
     <Folder Include="cSharp\수학\" />
     <Folder Include="cSharp\자료구조\딕셔너리와 해시\" />
     <Folder Include="cSharp\자료구조\스택\" />
-    <Folder Include="cSharp\최소스패닝트리\" />
     <Folder Include="cSharp\탐색\BFS\" />
     <Folder Include="cSharp\탐색\DFS\" />
     <Folder Include="정렬\" />
