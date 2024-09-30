@@ -228,6 +228,7 @@
     <Compile Remove="cSharp\최단 경로\전보.cs" />
     <Compile Remove="cSharp\최단 경로\플로이드 워셜 예제.cs" />
     <Compile Remove="cSharp\최소스패닝트리\1197.cs" />
+    <Compile Remove="cSharp\최소스패닝트리\16398.cs" />
     <Compile Remove="cSharp\최소스패닝트리\6497.cs" />
     <Compile Remove="cSharp\탐색\BFS\11060.cs" />
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
