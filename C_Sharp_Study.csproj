@@ -117,6 +117,7 @@
     <Compile Remove="cSharp\다이나믹\효율적인 화폐 구성.cs" />
     <Compile Remove="cSharp\문자열\10798.cs" />
     <Compile Remove="cSharp\문자열\10988.cs" />
+    <Compile Remove="cSharp\문자열\1100.cs" />
     <Compile Remove="cSharp\문자열\1120.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
@@ -129,6 +130,8 @@
     <Compile Remove="cSharp\문자열\20920.cs" />
     <Compile Remove="cSharp\문자열\25206.cs" />
     <Compile Remove="cSharp\문자열\25757.cs" />
+    <Compile Remove="cSharp\문자열\2745.cs" />
+    <Compile Remove="cSharp\문자열\2902.cs" />
     <Compile Remove="cSharp\문자열\5525.cs" />
     <Compile Remove="cSharp\문자열\9093.cs" />
     <Compile Remove="cSharp\문자열\9536.cs" />
