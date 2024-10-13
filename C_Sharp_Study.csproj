@@ -123,6 +123,7 @@
     <Compile Remove="cSharp\문자열\11478.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
+    <Compile Remove="cSharp\문자열\1159.cs" />
     <Compile Remove="cSharp\문자열\11656.cs" />
     <Compile Remove="cSharp\문자열\1235.cs" />
     <Compile Remove="cSharp\문자열\1254.cs" />
