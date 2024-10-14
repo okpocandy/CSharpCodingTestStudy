@@ -116,6 +116,7 @@
     <Compile Remove="cSharp\다이나믹\피보나치 수열 예제 재귀적.cs" />
     <Compile Remove="cSharp\다이나믹\효율적인 화폐 구성.cs" />
     <Compile Remove="cSharp\문자열\1032.cs" />
+    <Compile Remove="cSharp\문자열\10769.cs" />
     <Compile Remove="cSharp\문자열\10798.cs" />
     <Compile Remove="cSharp\문자열\10988.cs" />
     <Compile Remove="cSharp\문자열\1100.cs" />
@@ -125,6 +126,7 @@
     <Compile Remove="cSharp\문자열\1157.cs" />
     <Compile Remove="cSharp\문자열\1159.cs" />
     <Compile Remove="cSharp\문자열\11656.cs" />
+    <Compile Remove="cSharp\문자열\1212.cs" />
     <Compile Remove="cSharp\문자열\1235.cs" />
     <Compile Remove="cSharp\문자열\1254.cs" />
     <Compile Remove="cSharp\문자열\1259.cs" />
