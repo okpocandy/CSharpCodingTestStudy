@@ -127,10 +127,12 @@
     <Compile Remove="cSharp\문자열\1159.cs" />
     <Compile Remove="cSharp\문자열\11656.cs" />
     <Compile Remove="cSharp\문자열\1212.cs" />
+    <Compile Remove="cSharp\문자열\1225.cs" />
     <Compile Remove="cSharp\문자열\1235.cs" />
     <Compile Remove="cSharp\문자열\1254.cs" />
     <Compile Remove="cSharp\문자열\1259.cs" />
     <Compile Remove="cSharp\문자열\13417.cs" />
+    <Compile Remove="cSharp\문자열\1371.cs" />
     <Compile Remove="cSharp\문자열\1515.cs" />
     <Compile Remove="cSharp\문자열\15353.cs" />
     <Compile Remove="cSharp\문자열\17413.cs" />
