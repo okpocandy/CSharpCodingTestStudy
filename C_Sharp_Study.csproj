@@ -180,6 +180,8 @@
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
     <Compile Remove="cSharp\수학\4344.cs" />
+    <Compile Remove="cSharp\수학\6359.cs" />
+    <Compile Remove="cSharp\수학\9506.cs" />
     <Compile Remove="cSharp\자료구조\10815.cs" />
     <Compile Remove="cSharp\자료구조\1269.cs" />
     <Compile Remove="cSharp\자료구조\1302.cs" />
