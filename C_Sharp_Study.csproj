@@ -181,6 +181,7 @@
     <Compile Remove="cSharp\수학\3052.cs" />
     <Compile Remove="cSharp\수학\4153.cs" />
     <Compile Remove="cSharp\수학\4344.cs" />
+    <Compile Remove="cSharp\수학\4673.cs" />
     <Compile Remove="cSharp\수학\5533.cs" />
     <Compile Remove="cSharp\수학\6359.cs" />
     <Compile Remove="cSharp\수학\9506.cs" />
