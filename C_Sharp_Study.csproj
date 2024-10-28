@@ -122,6 +122,7 @@
     <Compile Remove="cSharp\문자열\1100.cs" />
     <Compile Remove="cSharp\문자열\1120.cs" />
     <Compile Remove="cSharp\문자열\11383.cs" />
+    <Compile Remove="cSharp\문자열\1141.cs" />
     <Compile Remove="cSharp\문자열\11478.cs" />
     <Compile Remove="cSharp\문자열\1152.cs" />
     <Compile Remove="cSharp\문자열\1157.cs" />
@@ -141,8 +142,10 @@
     <Compile Remove="cSharp\문자열\2002.cs" />
     <Compile Remove="cSharp\문자열\20291.cs" />
     <Compile Remove="cSharp\문자열\20920.cs" />
+    <Compile Remove="cSharp\문자열\2290.cs" />
     <Compile Remove="cSharp\문자열\25206.cs" />
     <Compile Remove="cSharp\문자열\25757.cs" />
+    <Compile Remove="cSharp\문자열\2697.cs" />
     <Compile Remove="cSharp\문자열\2745.cs" />
     <Compile Remove="cSharp\문자열\2902.cs" />
     <Compile Remove="cSharp\문자열\3062.cs" />
