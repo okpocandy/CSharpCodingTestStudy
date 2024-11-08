@@ -141,6 +141,7 @@
     <Compile Remove="cSharp\문자열\14647.cs" />
     <Compile Remove="cSharp\문자열\1515.cs" />
     <Compile Remove="cSharp\문자열\15353.cs" />
+    <Compile Remove="cSharp\문자열\1541.cs" />
     <Compile Remove="cSharp\문자열\17413.cs" />
     <Compile Remove="cSharp\문자열\2002.cs" />
     <Compile Remove="cSharp\문자열\20291.cs" />
@@ -203,6 +204,7 @@
     <Compile Remove="cSharp\자료구조\딕셔너리와 해시\1269.cs" />
     <Compile Remove="cSharp\자료구조\딕셔너리와 해시\14425.cs" />
     <Compile Remove="cSharp\자료구조\딕셔너리와 해시\1620.cs" />
+    <Compile Remove="cSharp\자료구조\딕셔너리와 해시\9375.cs" />
     <Compile Remove="cSharp\자료구조\스택\10773.cs" />
     <Compile Remove="cSharp\자료구조\스택\1316.cs" />
     <Compile Remove="cSharp\자료구조\스택\4949.cs" />
