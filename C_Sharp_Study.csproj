@@ -237,6 +237,7 @@
     <Compile Remove="cSharp\문자열\정렬\성적이 낮은 순서로 학생 출력하기.cs" />
     <Compile Remove="cSharp\문자열\정렬\위에서 아래로.cs" />
     <Compile Remove="cSharp\문자열\정렬\퀵 정렬 예제.cs" />
+    <Compile Remove="cSharp\자료구조\큐\5430.cs" />
     <Compile Remove="cSharp\정렬\10814.cs" />
     <Compile Remove="cSharp\정렬\10989.cs" />
     <Compile Remove="cSharp\정렬\11650.cs" />
