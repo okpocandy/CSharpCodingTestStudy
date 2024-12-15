@@ -269,6 +269,7 @@
     <Compile Remove="cSharp\문자열\정렬\퀵 정렬 예제.cs" />
     <Compile Remove="cSharp\자료구조\큐\5430.cs" />
     <Compile Remove="cSharp\정렬\10814.cs" />
+    <Compile Remove="cSharp\정렬\10867.cs" />
     <Compile Remove="cSharp\정렬\10989.cs" />
     <Compile Remove="cSharp\정렬\11650.cs" />
     <Compile Remove="cSharp\정렬\11651.cs" />
@@ -283,6 +284,7 @@
     <Compile Remove="cSharp\정렬\2587.cs" />
     <Compile Remove="cSharp\정렬\2750.cs" />
     <Compile Remove="cSharp\정렬\2751.cs" />
+    <Compile Remove="cSharp\정렬\2822.cs" />
     <Compile Remove="cSharp\정렬\28417.cs" />
     <Compile Remove="cSharp\정렬\29767.cs" />
     <Compile Remove="cSharp\정렬\3273.cs" />
