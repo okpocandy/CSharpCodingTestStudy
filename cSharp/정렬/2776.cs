@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace C_Sharp_Study.cSharp.정렬
 {
@@ -10,36 +8,40 @@ namespace C_Sharp_Study.cSharp.정렬
     {
         static void Main(string[] args)
         {
-            int t = int.Parse(Console.ReadLine());
-            int n = int.Parse(Console.ReadLine());
-            int[] asu = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            int m = int.Parse(Console.ReadLine());
-            int[] bsu = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            Array.Sort(asu);
-            Array.Sort(bsu);
-            int aind = 0;
-            int bind = 0;
-            int[] ans = new int[m];
-            while(aind < n)
+            int t = int.Parse(Console.ReadLine()?.Trim() ?? "0"); // 테스트 케이스 수 입력
+            for (int test = 0; test < t; test++)
             {
-                if (bsu[bind] > asu[aind])
+                int n = int.Parse(Console.ReadLine()?.Trim() ?? "0"); // 수첩1 크기
+                HashSet<int> note1 = new HashSet<int>();
+                string? note1Input = Console.ReadLine()?.Trim();
+
+                if (!string.IsNullOrEmpty(note1Input))
                 {
-                    ans[bind] = 0;
+                    foreach (string num in note1Input.Split())
+                    {
+                        if (int.TryParse(num, out int parsedNum))
+                        {
+                            note1.Add(parsedNum);
+                        }
+                    }
                 }
-                else if(bsu[bind] < asu[aind])
+
+                int m = int.Parse(Console.ReadLine()?.Trim() ?? "0"); // 수첩2 크기
+                string? note2Input = Console.ReadLine()?.Trim();
+                StringBuilder result = new StringBuilder();
+
+                if (!string.IsNullOrEmpty(note2Input))
                 {
-                    aind++;
+                    foreach (string num in note2Input.Split())
+                    {
+                        if (int.TryParse(num, out int query))
+                        {
+                            result.AppendLine(note1.Contains(query) ? "1" : "0");
+                        }
+                    }
                 }
-                else
-                {
-                    ans[bind] = 1;
-                    aind++;
-                    bind++;
-                }
-            }
-            foreach(int i in ans)
-            {
-                Console.WriteLine(i);
+
+                Console.Write(result.ToString());
             }
         }
     }

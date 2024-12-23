@@ -286,6 +286,7 @@
     <Compile Remove="cSharp\정렬\2587.cs" />
     <Compile Remove="cSharp\정렬\2750.cs" />
     <Compile Remove="cSharp\정렬\2751.cs" />
+    <Compile Remove="cSharp\정렬\2776.cs" />
     <Compile Remove="cSharp\정렬\2822.cs" />
     <Compile Remove="cSharp\정렬\28417.cs" />
     <Compile Remove="cSharp\정렬\2910.cs" />
