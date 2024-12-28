@@ -89,10 +89,12 @@
     <Compile Remove="cSharp\구현\20125.cs" />
     <Compile Remove="cSharp\구현\2167.cs" />
     <Compile Remove="cSharp\구현\2231.cs" />
+    <Compile Remove="cSharp\구현\2304.cs" />
     <Compile Remove="cSharp\구현\23056.cs" />
     <Compile Remove="cSharp\구현\2438.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
     <Compile Remove="cSharp\구현\2475.cs" />
+    <Compile Remove="cSharp\구현\2477.cs" />
     <Compile Remove="cSharp\구현\25083.cs" />
     <Compile Remove="cSharp\구현\2535.cs" />
     <Compile Remove="cSharp\구현\2548.cs" />
