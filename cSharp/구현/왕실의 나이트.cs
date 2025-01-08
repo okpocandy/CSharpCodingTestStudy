@@ -10,22 +10,31 @@ namespace C_Sharp_Study.cSharp.구현
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            int x = (int)input[0] - 96;
-            int y = (int)input[1] - 48;
-            int[,] steps = new int[8, 2] { { -2, -1 }, { 2, -1 }, { -2, 1 }, { 2, 1 }, { 1, 2 }, { -1, -2 }, { 1, -2 }, { -1, 2 } };
-            int count = 0;
-            for(int i=0; i<steps.GetLength(0); i++)
+            string xy = Console.ReadLine();
+            (int y, int x)[] steps = { (-2, -1), (-1, -2), (1, -2), (2, -1), (2, 1), (1, 2), (-1, 2), (-2, 1) };
+            int ans = 0;
+            int x = (int)xy[0] - (int)'a' + 1;
+            int y = (int)xy[1] - (int)'1' + 1;
+            Console.WriteLine(x + " " + y);
+            foreach (var step in steps)
             {
-                int dx = x;
-                int dy = y;
-                dx += steps[i, 0];
-                dy += steps[i, 1];
-                if(dx < 1 || dy < 1 || dx > 8 || dy > 8)
+                int tmpx = x + step.x;
+                int tmpy = y + step.y;
+                if (tmpx < 1 || tmpy < 1 || tmpx > 8 || tmpy > 8)
                     continue;
-                count++;
+                ans++;
             }
-            Console.WriteLine(count);
+            Console.WriteLine(ans);
         }
     }
 }
+
+/*
+
+입력:
+a1
+
+정답:
+2
+ 
+ */

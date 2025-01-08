@@ -10,35 +10,56 @@ namespace C_Sharp_Study.cSharp.구현
     {
         static void Main(string[] args)
         {
-            int N = int.Parse(Console.ReadLine());
-            string[] inputs = Console.ReadLine().Split();
-            int x = 1;
-            int y = 1;
-
-            foreach (string input in inputs)
+            int n = int.Parse(Console.ReadLine());
+            char[] moves = Array.ConvertAll(Console.ReadLine().Split(), char.Parse);
+            (int y, int x) start = (1,1);
+            foreach(char c in moves)
             {
-                switch (input)
+                switch(c)
                 {
-                    case "L":
-                        if (x > 1)
-                            x -= 1;
-                        break;
-                    case "R":
-                        if (x < N)
-                            x += 1;
-                        break;
-                    case "U":
-                        if (y > 1)
-                            y -= 1;
-                        break;
-                    case "D":
-                        if (y < N)
-                            y += 1;
-                        break;
-
+                    case 'R':
+                        {
+                            if (start.x < n)
+                                start.x++;
+                            break;
+                        }
+                    case 'L':
+                        {
+                            if (start.x > 1)
+                                start.x--;
+                            break;
+                        }
+                    case 'U':
+                        {
+                            if (start.y > 1)
+                                start.y--;
+                            break;
+                        }
+                    case 'D':
+                        {
+                            if (start.y < n)
+                                start.y++;
+                            break;
+                        }
                 }
-                Console.WriteLine($"{y} {x}");
+                Console.WriteLine(start.y + " " + start.x);
             }
+
         }
     }
 }
+
+/*
+ 
+입력:
+5
+R R R U D D
+
+정답:
+3 4
+
+
+ 
+ 
+ 
+ */

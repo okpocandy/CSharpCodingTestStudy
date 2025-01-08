@@ -134,6 +134,7 @@
     <Compile Remove="cSharp\구현\9498.cs" />
     <Compile Remove="cSharp\구현\9655.cs" />
     <Compile Remove="cSharp\구현\9659.cs" />
+    <Compile Remove="cSharp\구현\게임 개발.cs" />
     <Compile Remove="cSharp\구현\게입 개발.cs" />
     <Compile Remove="cSharp\구현\기둥과 보 설치.cs" />
     <Compile Remove="cSharp\구현\럭키 스트레이트.cs" />
