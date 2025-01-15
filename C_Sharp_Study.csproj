@@ -124,6 +124,7 @@
     <Compile Remove="cSharp\구현\28702.cs" />
     <Compile Remove="cSharp\구현\2920.cs" />
     <Compile Remove="cSharp\구현\2941.cs" />
+    <Compile Remove="cSharp\구현\29813.cs" />
     <Compile Remove="cSharp\구현\30802.cs" />
     <Compile Remove="cSharp\구현\30804.cs" />
     <Compile Remove="cSharp\구현\3085.cs" />
