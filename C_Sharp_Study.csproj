@@ -43,6 +43,7 @@
     <Compile Remove="cSharp\greedy\13413.cs" />
     <Compile Remove="cSharp\greedy\15903.cs" />
     <Compile Remove="cSharp\greedy\16237.cs" />
+    <Compile Remove="cSharp\greedy\1946.cs" />
     <Compile Remove="cSharp\greedy\19941.cs" />
     <Compile Remove="cSharp\greedy\1이 될 때까지.cs" />
     <Compile Remove="cSharp\greedy\28353.cs" />
@@ -98,6 +99,7 @@
     <Compile Remove="cSharp\구현\17952.cs" />
     <Compile Remove="cSharp\구현\18310.cs" />
     <Compile Remove="cSharp\구현\1913.cs" />
+    <Compile Remove="cSharp\구현\19368.cs" />
     <Compile Remove="cSharp\구현\1969.cs" />
     <Compile Remove="cSharp\구현\2003.cs" />
     <Compile Remove="cSharp\구현\20125.cs" />
