@@ -39,8 +39,12 @@
     <Compile Remove="cSharp\DP\1932.cs" />
     <Compile Remove="cSharp\DP\2193.cs" />
     <Compile Remove="cSharp\DP\2775.cs" />
+    <Compile Remove="cSharp\greedy\1041.cs" />
     <Compile Remove="cSharp\greedy\11501.cs" />
+    <Compile Remove="cSharp\greedy\1263.cs" />
     <Compile Remove="cSharp\greedy\13413.cs" />
+    <Compile Remove="cSharp\greedy\1374.cs" />
+    <Compile Remove="cSharp\greedy\1512.cs" />
     <Compile Remove="cSharp\greedy\15903.cs" />
     <Compile Remove="cSharp\greedy\16237.cs" />
     <Compile Remove="cSharp\greedy\1946.cs" />
