@@ -40,6 +40,7 @@
     <Compile Remove="cSharp\DP\2193.cs" />
     <Compile Remove="cSharp\DP\2775.cs" />
     <Compile Remove="cSharp\greedy\1041.cs" />
+    <Compile Remove="cSharp\greedy\1092.cs" />
     <Compile Remove="cSharp\greedy\11501.cs" />
     <Compile Remove="cSharp\greedy\1263.cs" />
     <Compile Remove="cSharp\greedy\13413.cs" />
@@ -50,6 +51,7 @@
     <Compile Remove="cSharp\greedy\1946.cs" />
     <Compile Remove="cSharp\greedy\19941.cs" />
     <Compile Remove="cSharp\greedy\1이 될 때까지.cs" />
+    <Compile Remove="cSharp\greedy\2195.cs" />
     <Compile Remove="cSharp\greedy\28353.cs" />
     <Compile Remove="cSharp\greedy\9440.cs" />
     <Compile Remove="cSharp\greedy\숫자 카드 게임.cs" />
