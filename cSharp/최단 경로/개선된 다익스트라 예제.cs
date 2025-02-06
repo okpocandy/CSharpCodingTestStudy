@@ -1,70 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Study
+namespace C_Sharp_Study.cSharp.최단_경로
 {
     internal class 개선된_다익스트라_예제
     {
-        const int INF = 987654321;
-        static int n = 0;
-        static int[] distance;
-        static List<int[]>[] graph;
-
+        static int[] dis;
+        static List<(int, int)>[] graph;
         static void Main(string[] args)
         {
             int[] nm = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            n = nm[0];
+            int n = nm[0];
             int m = nm[1];
-
-            int start = int.Parse(Console.ReadLine());
-            graph = new List<int[]>[n + 1];
+            int INF = 987654321;
+            int st= int.Parse(Console.ReadLine());
+            graph = new List<(int, int)>[n + 1];
             for (int i = 0; i <= n; i++)
             {
-                graph[i] = new List<int[]>();
+                graph[i] = new List<(int, int)>();
             }
-            distance = new int[n + 1];
-            Array.Fill(distance, INF);
-
-            for (int i = 0; i < m; i++)
+            dis = new int[n + 1];
+            Array.Fill(dis, INF);
+            for(int i=0; i<m; i++)
             {
                 int[] abc = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-                graph[abc[0]].Add([abc[1], abc[2]]);
+                graph[abc[0]].Add((abc[1], abc[2]));
             }
+            dijkstra(st);
 
-            Dijkstra(start);
-
-            for (int i = 0; i < n + 1; i++)
+            for(int i=1; i<n+1; i++)
             {
-                if (distance[i] == INF)
+                if (dis[i] == INF)
                     Console.WriteLine("INFINITY");
                 else
-                    Console.WriteLine(distance[i]);
+                    Console.WriteLine(dis[i]);  
             }
-
-
         }
 
-        static void Dijkstra(int start)
+        static void dijkstra(int start)
         {
-            var pq = new PriorityQueue<(int dist, int node), int>();
-            pq.Enqueue((0, start), 0);
-            distance[start] = 0;
-            while(pq.Count > 0)
+            PriorityQueue<(int, int), int> q = new PriorityQueue<(int, int), int>();
+            dis[start] = 0;
+            q.Enqueue((0, start), 0);
+            while(q.Count > 0)
             {
-                var(dist, now) = pq.Dequeue();
-                if (distance[now] < dist)
+                (int dist, int now) = q.Dequeue();
+                if (dis[now] < dist)
                     continue;
-                foreach( var i in graph[now])
+                foreach(var i in graph[now])
                 {
-                    int cost = dist + i[1];
-                    if(cost < distance[i[0]])
+                    int cost = dist + i.Item2;
+                    if(cost < dis[i.Item1])
                     {
-                        distance[i[0]] = cost;
-                        pq.Enqueue((cost, i[0]), cost);
+                        dis[i.Item1] = cost;
+                        q.Enqueue((cost, i.Item1), cost);
                     }
                 }
             }
@@ -73,7 +65,7 @@ namespace C_Sharp_Study
 }
 
 /*
-
+ 
 6 11
 1
 1 2 2
@@ -87,5 +79,13 @@ namespace C_Sharp_Study
 4 5 1
 5 3 1
 5 6 2
+
+출력:
+0
+2
+3
+1
+2
+4
  
  */
