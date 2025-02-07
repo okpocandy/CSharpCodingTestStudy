@@ -10,39 +10,35 @@ namespace C_Sharp_Study.cSharp.구현
     {
         static void Main(string[] args)
         {
-            string a = Console.ReadLine();
-            char[] chars = a.ToCharArray();
-            List<char> charL = new List<char>();
-            List<int> charN = new List<int>();
-            foreach (char c in chars)
+            string ss = Console.ReadLine();
+            string ans = "";
+            int ai = 0;
+            foreach(var s in ss)
             {
-                if (c >= 'A')
-                    charL.Add(c);
+                if (char.IsDigit(s))
+                    ai += s - '0';
                 else
-                    charN.Add((int)c-(int)'0');
+                    ans += s;
             }
-            charL.Sort();
-            int b = charN.Sum();
-
-            Console.WriteLine(String.Join("", charL.ToArray()) + b.ToString());
+            var arrans = ans.ToCharArray();
+            Array.Sort(arrans);
+            Console.WriteLine(string.Join("", arrans) + ai);
         }
     }
 }
 
 /*
-
-
-inp:
+ 
+입력:
 K1KA5CB7
 
-out:
+출력:
 ABCKK13
 
-inp:
+입력:
 AJKDLSI412K4JSJ9D
 
-out:
-ADDIJJKKLSS20
-
-
-*/
+출력:
+ADDIJJJKKLSS20
+ 
+ */

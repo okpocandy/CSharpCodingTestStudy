@@ -10,31 +10,24 @@ namespace C_Sharp_Study.cSharp.구현
     {
         static void Main(string[] args)
         {
-            string inp = Console.ReadLine();
-            int suml = 0;
-            int sumr = 0;
-            for(int i=0; i<inp.Length/2; i++)
-                suml += (int)(inp[i]) - (int)'0';
-            for (int i = inp.Length / 2; i < inp.Length; i++)
-                sumr += (int)(inp[i]) - (int)'0';
-            if (sumr == suml)
+            string n = Console.ReadLine();
+            int mid = n.Length / 2;
+            string s1 = n[0..mid];
+            string s2 = n[mid..];
+            int tmp1 = 0;
+            int tmp2 = 0;
+            foreach(var s in s1)
+            {
+                tmp1 += s - '0';
+            }
+            foreach(var s in s2)
+            {
+                tmp2 += s - '0';
+            }
+            if (tmp1 == tmp2)
                 Console.WriteLine("LUCKY");
             else
                 Console.WriteLine("READY");
         }
     }
 }
-/*
-
-inp:
-123402
-
-out:
-LUCKY
-
-inp:
-7755
-
-out:
-READY
- */
