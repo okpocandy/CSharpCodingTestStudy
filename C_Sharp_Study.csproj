@@ -367,12 +367,16 @@
     <Compile Remove="cSharp\최소스패닝트리\6497.cs" />
     <Compile Remove="cSharp\탐색\BFS\11060.cs" />
     <Compile Remove="cSharp\탐색\BFS\11725.cs" />
+    <Compile Remove="cSharp\탐색\BFS\14502_2.cs" />
     <Compile Remove="cSharp\탐색\BFS\14716.cs" />
     <Compile Remove="cSharp\탐색\BFS\16953.cs" />
     <Compile Remove="cSharp\탐색\BFS\1697.cs" />
+    <Compile Remove="cSharp\탐색\BFS\18352_2.cs" />
+    <Compile Remove="cSharp\탐색\BFS\18405.cs" />
     <Compile Remove="cSharp\탐색\BFS\3184.cs" />
     <Compile Remove="cSharp\탐색\BFS\미로 탈출.cs" />
     <Compile Remove="cSharp\탐색\DFS\2583.cs" />
+    <Compile Remove="cSharp\탐색\DFS\연산자 끼워넣기.cs" />
     <Compile Remove="cSharp\탐색\DFS\음료수 얼려 먹기.cs" />
     <Compile Remove="cSharp\탐색\이진 탐색 예제.cs" />
     <Compile Remove="cSharp\트리\1240.cs" />
