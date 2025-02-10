@@ -51,10 +51,12 @@
     <Compile Remove="cSharp\greedy\1512.cs" />
     <Compile Remove="cSharp\greedy\15903.cs" />
     <Compile Remove="cSharp\greedy\16237.cs" />
+    <Compile Remove="cSharp\greedy\17983.cs" />
     <Compile Remove="cSharp\greedy\1946.cs" />
     <Compile Remove="cSharp\greedy\19941.cs" />
     <Compile Remove="cSharp\greedy\1이 될 때까지.cs" />
     <Compile Remove="cSharp\greedy\2195.cs" />
+    <Compile Remove="cSharp\greedy\2212.cs" />
     <Compile Remove="cSharp\greedy\28353.cs" />
     <Compile Remove="cSharp\greedy\9440.cs" />
     <Compile Remove="cSharp\greedy\곱하기 혹은 더하기.cs" />
@@ -324,8 +326,10 @@
     <Compile Remove="cSharp\정렬\1427.cs" />
     <Compile Remove="cSharp\정렬\1449.cs" />
     <Compile Remove="cSharp\정렬\1485.cs" />
+    <Compile Remove="cSharp\정렬\1715.cs" />
     <Compile Remove="cSharp\정렬\17390.cs" />
     <Compile Remove="cSharp\정렬\1764.cs" />
+    <Compile Remove="cSharp\정렬\18310_2.cs" />
     <Compile Remove="cSharp\정렬\18870.cs" />
     <Compile Remove="cSharp\정렬\1940.cs" />
     <Compile Remove="cSharp\정렬\20124.cs" />
