@@ -132,6 +132,8 @@
     <Compile Remove="cSharp\구현\2231.cs" />
     <Compile Remove="cSharp\구현\2304.cs" />
     <Compile Remove="cSharp\구현\23056.cs" />
+    <Compile Remove="cSharp\구현\23254.cs" />
+    <Compile Remove="cSharp\구현\23524.cs" />
     <Compile Remove="cSharp\구현\2438.cs" />
     <Compile Remove="cSharp\구현\2439.cs" />
     <Compile Remove="cSharp\구현\24523.cs" />
@@ -151,6 +153,7 @@
     <Compile Remove="cSharp\구현\2739.cs" />
     <Compile Remove="cSharp\구현\2741.cs" />
     <Compile Remove="cSharp\구현\27866.cs" />
+    <Compile Remove="cSharp\구현\27896.cs" />
     <Compile Remove="cSharp\구현\27964.cs" />
     <Compile Remove="cSharp\구현\28215.cs" />
     <Compile Remove="cSharp\구현\2824.cs" />
