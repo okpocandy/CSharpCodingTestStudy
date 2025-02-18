@@ -50,6 +50,7 @@
     <Compile Remove="cSharp\greedy\1263.cs" />
     <Compile Remove="cSharp\greedy\12904.cs" />
     <Compile Remove="cSharp\greedy\13164.cs" />
+    <Compile Remove="cSharp\greedy\1339.cs" />
     <Compile Remove="cSharp\greedy\13413.cs" />
     <Compile Remove="cSharp\greedy\1374.cs" />
     <Compile Remove="cSharp\greedy\1512.cs" />
@@ -67,6 +68,7 @@
     <Compile Remove="cSharp\greedy\28353.cs" />
     <Compile Remove="cSharp\greedy\9440.cs" />
     <Compile Remove="cSharp\greedy\곱하기 혹은 더하기.cs" />
+    <Compile Remove="cSharp\greedy\도서관.cs" />
     <Compile Remove="cSharp\greedy\만들 수 없는 금액.cs" />
     <Compile Remove="cSharp\greedy\모험가 길드.cs" />
     <Compile Remove="cSharp\greedy\무지의 먹방 라이브.cs" />
