@@ -338,6 +338,7 @@
     <Compile Remove="cSharp\정렬\1427.cs" />
     <Compile Remove="cSharp\정렬\1449.cs" />
     <Compile Remove="cSharp\정렬\1485.cs" />
+    <Compile Remove="cSharp\정렬\16936.cs" />
     <Compile Remove="cSharp\정렬\1715.cs" />
     <Compile Remove="cSharp\정렬\17390.cs" />
     <Compile Remove="cSharp\정렬\1764.cs" />
@@ -347,6 +348,8 @@
     <Compile Remove="cSharp\정렬\1940.cs" />
     <Compile Remove="cSharp\정렬\20124.cs" />
     <Compile Remove="cSharp\정렬\2170.cs" />
+    <Compile Remove="cSharp\정렬\2230.cs" />
+    <Compile Remove="cSharp\정렬\23843.cs" />
     <Compile Remove="cSharp\정렬\25496.cs" />
     <Compile Remove="cSharp\정렬\2587.cs" />
     <Compile Remove="cSharp\정렬\25947.cs" />
