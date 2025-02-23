@@ -62,6 +62,7 @@
     <Compile Remove="cSharp\greedy\19598.cs" />
     <Compile Remove="cSharp\greedy\19941.cs" />
     <Compile Remove="cSharp\greedy\1이 될 때까지.cs" />
+    <Compile Remove="cSharp\greedy\20117.cs" />
     <Compile Remove="cSharp\greedy\21758.cs" />
     <Compile Remove="cSharp\greedy\2195.cs" />
     <Compile Remove="cSharp\greedy\2212.cs" />
